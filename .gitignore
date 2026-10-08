@@ -1,0 +1,12 @@
+# Python bytecode & cache
+__pycache__/
+*.pyc
+.venv/
+
+# Ignore raw and processed data CSVs (keeps repo light)
+data/raw/*.csv
+data/processed/*.csv
+
+# IDE and OS configurations
+.vscode/
+.DS_Store
