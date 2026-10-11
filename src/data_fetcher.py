@@ -18,7 +18,7 @@ os.makedirs(RAW_DATA_DIR, exist_ok=True)  # exist_ok=True prevents errors if fol
 os.makedirs(PROCESSED_DATA_DIR, exist_ok=True)  # Creates data/processed directory
 
 # List of Understat league identifiers for the top 5 European leagues
-TOP_5_LEAGUES_UNDERSTAT = ["EPL", "La_liga", "Bundesliga", "Serie_A", "Ligue_1"]
+TOP_5_LEAGUES_UNDERSTAT = ["EPL", "La_Liga", "Bundesliga", "Serie_A", "Ligue_1"]
 
 # Generate list of start years: 2014 to 2025 (representing 2014/15 through 2025/26 seasons)
 UNDERSTAT_SEASONS = list(range(2014, 2026))
